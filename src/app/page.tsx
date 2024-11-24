@@ -5,10 +5,12 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { CiTwitter } from "react-icons/ci";
 import Link from 'next/link';
-import About from './components/about';
+
 import Work from './components/Work';
 import Blogs from './components/Blogs';
 import Contact from './components/contact';
+import About from './components/About';
+import Image from 'next/image';
 
 
 function page() {
@@ -52,7 +54,7 @@ function page() {
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="500" >
-      <img 
+      <Image
         className=" w-[400px] ml-10  "
         alt="hero"
         src="/pg.png" 

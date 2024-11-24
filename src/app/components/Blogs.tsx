@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Blogs() {
   return (
@@ -19,7 +20,7 @@ function Blogs() {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image 
             className="lg:h-48 md:h-36 w-full "
             src="/th (16).jpeg"
             alt="blog"
@@ -86,7 +87,7 @@ function Blogs() {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image 
             className="lg:h-48 md:h-36 w-full "
             src="/ppp.jpeg"
             alt="blog"
@@ -153,7 +154,7 @@ function Blogs() {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image 
             className="lg:h-48 md:h-36 w-full "
             src="/ui.jpeg"
             alt="blog"

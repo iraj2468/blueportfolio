@@ -10,7 +10,7 @@ function contact() {
     <div className='bg-[#020726]'>
  <section className="text-gray-600 body-font md:w-[1320px] mx-auto py-20 " id="contact">
  <h1 className="sm:text-3xl text-3xl font-medium title-font text-yellow-500 mb-4 text-center  "  data-aos="zoom-in-down">
-      Let's Connect Together
+      Lets Connect Together
       </h1>
       <p className="text-base  text-center leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white"  data-aos="zoom-in-down">
         Blue bottle crucifix vinyl post-ironic four dollar toast vegan
@@ -23,7 +23,7 @@ function contact() {
   <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
     <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0 ">
       <h1 className="title-font font-medium text-xl text-white">
-        Let's make something new,different great together.
+        Lets make something new,different great together.
         <br />
          <span className='text-yellow-500'data-aos="zoom-in">You just say hellow</span>
       </h1>
@@ -97,7 +97,7 @@ function contact() {
         Button
       </button>
       <p className="text-xs text-gray-500 mt-3">
-        Literally you probably haven't heard of them jean shorts.
+        Literally you probably havenot heard of them jean shorts.
       </p>
     </div>
   </div>

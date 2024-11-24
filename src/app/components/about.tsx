@@ -3,8 +3,9 @@ import React, { useEffect } from 'react'
 
 import AOS from 'aos'
 import "aos/dist/aos.css";
+import Image from 'next/image';
 
-function about() {
+function About() {
   useEffect(() => {
     AOS.init({})
   },[])
@@ -16,7 +17,7 @@ function about() {
 
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0"  >
-      <img data-aos="fade-right"
+      <Image  data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"
         className="object-cover object-center rounded"
@@ -58,7 +59,7 @@ function about() {
   )
 }
 
-export default about
+export default About
 
 
 
@@ -136,7 +137,7 @@ export default about
     <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 px-20 ">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center border border-gray-900" data-aos="flip-right">
         <div className="w-20 h-20 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-          <img src="/u.jpeg" alt="" className='rounded-full' />
+          <Image  src="/u.jpeg" alt="" className='rounded-full' />
           
         </div>
         <div className="flex-grow">
@@ -166,7 +167,7 @@ export default about
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center border border-gray-900" data-aos="flip-down">
         <div className="w-20 h-20 inline-flex items-center justify-center rounded-full  text-indigo-500 mb-5 flex-shrink-0">
-        <img src="/u.jpeg" alt="" className='rounded-full' />
+        <Image  src="/u.jpeg" alt="" className='rounded-full' />
          
         </div>
         <div className="flex-grow">
@@ -196,7 +197,7 @@ export default about
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center border border-gray-900"data-aos="flip-left">
       <div className="w-20 h-20 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
-        <img src="/u.jpeg" alt=""   className='rounded-full'/>
+        <Image  src="/u.jpeg" alt=""   className='rounded-full'/>
       
         </div>
         <div className="flex-grow">

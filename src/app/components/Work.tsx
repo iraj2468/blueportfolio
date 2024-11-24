@@ -3,6 +3,7 @@ import React from 'react'
 import { CiTwitter } from 'react-icons/ci'
 import { FaInstagram } from 'react-icons/fa'
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa6'
+import Image from 'next/image'
 
 
 function Work() {
@@ -16,14 +17,14 @@ function Work() {
       </h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white"data-aos="zoom-in-up">
         Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-        gentrify, subway tile poke farm-to-table. Franzen you probably haven't
+        gentrify, subway tile poke farm-to-table. Franzen you probably havent
         heard of them man bun deep jianbing selfies heirloom.
       </p>
     </div>
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative"data-aos="zoom-in-up">
-          <img
+          <Image 
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src="/p1.webp"
@@ -44,7 +45,7 @@ function Work() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative" data-aos="zoom-in-up">
-          <img
+          <Image 
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src="/The-Pros-of-Using-Sound-Systems-1024x576.jpg"
@@ -65,7 +66,7 @@ function Work() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative" data-aos="zoom-in-up">
-          <img
+          <Image 
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src="/todo.png"
@@ -85,7 +86,7 @@ function Work() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative" data-aos="zoom-in-up">
-          <img
+          <Image 
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src="/website.jpeg"
@@ -106,7 +107,7 @@ function Work() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative" data-aos="zoom-in-up">
-          <img
+          <Image 
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src="/quiz.jpeg"
@@ -127,7 +128,7 @@ function Work() {
       </div>
       <div className="lg:w-1/3 sm:w-1/2 p-4">
         <div className="flex relative" data-aos="zoom-in-up">
-          <img
+          <Image 
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src="/haircut.jpeg"
